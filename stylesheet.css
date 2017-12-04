@@ -1,5 +1,49 @@
 h1 {
-	color: pink;
-	border-style: solid;
-	border: thick;
+	text-align: center;
+	border: 3px solid black;
+	font-family: HelveticaNeue-Heavy;
+	background-color: lightgray;
+	margin-top: 0px;
+	margin: 0%;
+	width: 100%;
 }
+
+body {
+	
+	background: url(background.png); top center no-repeat;
+}
+
+.a {
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+.b {
+	margin-right: 33%;
+	margin-left: 33%;
+}
+
+a {
+	color: black;
+	margin-left: 33%;
+}
+
+div {
+	background-color: lightgray;
+	padding: 8px;
+	margin-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px solid grey;
+	box-shadow: 3px 3px .5px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+
+
+}
+
+p {
+	color: black;
+	font-family: comic-sans;
+	margin: 10px;
+}
+
