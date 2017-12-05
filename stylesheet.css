@@ -1,9 +1,15 @@
 h1 {
 	text-align: center;
-	border: 3px solid black;
+	border: 2px solid grey;
 	font-family: HelveticaNeue-Heavy;
 	background-color: lightgray;
+	margin-top: 0px;
+	border-radius: 10px;
+}
 
+h2 {
+	font-size: 15px;
+	text-align: center;
 }
 
 body {
@@ -12,19 +18,15 @@ body {
 	background: url(back.png); top center no-repeat;
 }
 
-.a {
+.gay {
 	margin-left: 33%;
 	margin-right: 33%;
-}
-
-.b {
-	margin-right: 33%;
-	margin-left: 33%;
+	text-align: center;
 }
 
 a {
 	color: black;
-	margin-left: 39%;
+	text-decoration: none;
 }
 
 div {
@@ -50,5 +52,17 @@ p {
 object {
 	width: 100%;
 
+}
+
+input {
+	width: 99%;
+	height: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.yes_no {
+	margin-left: 33%;
+	margin-right: 33%;
 }
 
