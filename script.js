@@ -58,8 +58,8 @@ function changeWisk() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_wisk.pdf');		
 };
-if (isMobile.Android()) {
-		//window.location.href = "index.html";
+if (isMobile.any()) {
+	document.getElementById("navBar").style.width = "100%";
 };
 
 function openPopupWisk() {
@@ -67,4 +67,9 @@ function openPopupWisk() {
 }
 function closePopupWisk() {
 	document.getElementById('popupWisk').style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == document.getElementById('popupWisk')) {
+        document.getElementById('popupWisk').style.display = "none";
+    }
 }
