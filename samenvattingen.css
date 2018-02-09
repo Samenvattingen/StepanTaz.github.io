@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	font-family: helvetica bold;
 }
 object {
 	float: right;
@@ -21,8 +22,10 @@ object {
 	float: left;
 	width: 7%;
 	font-size: 20px;
-	border-width: 3px;
+	border: 3px solid black;
 	box-shadow: 9px 1px 56px -20px rgba(0,0,0,0.75);
+	font-weight: bold;
+	text-decoration: none;
 }
 .pdf {
 	background-color: lightgrey;
