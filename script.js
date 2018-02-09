@@ -35,34 +35,56 @@ function changeAard() {
 };
 function changeBio() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_bio.pdf');		
+			objData.setAttribute('data', 'summ_bio.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_bio.pdf");
+			}		
 };
 function changeChem() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_chem.pdf');		
+			objData.setAttribute('data', 'summ_chem.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_chem.pdf");
+			}		
 };
 function changeEng() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_eng.pdf');		
+			objData.setAttribute('data', 'summ_eng.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_eng.pdf");
+			}		
 };
 function changeFrans() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_frans.pdf');		
+			objData.setAttribute('data', 'summ_frans.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_frans.pdf");
+			}	
 };
 function changeFys() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_fys.pdf');		
+			objData.setAttribute('data', 'summ_fys.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_fys.pdf");
+			}		
 };
 function changeGesch() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_gesch.pdf');		
+			objData.setAttribute('data', 'summ_gesch.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_gesch.pdf");
+			}		
 };
 function changeWisk() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_wisk.pdf');		
+			objData.setAttribute('data', 'summ_wisk.pdf');
+			if (isMobile.any()) {
+				window.open("https://stepantaz.github.io/summ_wisk.pdf");
+			}		
 };
 if (isMobile.any()) {
-	document.getElementById("navBar").style.width = "100%";
+	document.getElementById("navBar").style.width = "50%";
+	document.getElementById("navBar").style.backgroundColor = "lightblue";
 };
 
 function openPopupWisk() {
