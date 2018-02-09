@@ -8,25 +8,52 @@
 <body>
 <div class="navBar" id="navBar">
 		<a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
-		<a href="summ_aard.pdf">Aardrijkskunde</a>
-		<a href="summ_aard.pdf">Aardrijkskunde</a>
-		<a href="summ_aard.pdf">Aardrijkskunde</a>
-		<a href="summ_aard.pdf">Aardrijkskunde</a>
+		<a href="javascript:void(0)" onclick="changeSumm()">Aardrijkskunde</a>
+		<a href="" onclick="changeSumm()">Aardrijkskunde</a>
+		<a href="" onclick="changeSumm()">Aardrijkskunde</a>
+		<a href="" onclick="changeSumm()">Aardrijkskunde</a>
 </div>
 <button class="openBtn" onclick="openNav()">V<br>A<br>K<br>K<br>E<br>N</button>
 <div class="pdf">
 
-	<object data="summ_aard.pdf" type="application/pdf">
+	<object id="pdf" data="summ_aard.pdf" type="application/pdf">
 			
 	</object>
 </div>
 </body>
 <script type="text/javascript">
+	var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+	};
 	function openNav() {
 		document.getElementById("navBar").style.width = "250px";
 	}
 	function closeNav() {
 		document.getElementById("navBar").style.width = "0";
+	}
+	function changeSumm() {
+		var objData = document.getElementById('pdf');
+		objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_aard.pdf');
+	}
+	if (isMobile.Android()) {
+		alert("ANDROID")
 	}
 </script>
 </html>
