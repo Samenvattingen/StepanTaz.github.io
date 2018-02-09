@@ -1,0 +1,60 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+object {
+	float: right;
+	width: 97%;
+	height: 100%;
+	position: absolute;
+}
+.openBtn {
+	position: absolute;
+	vertical-align: middle;
+	z-index: 1;
+	border-radius: 3px;
+	height: 100%;
+	float: left;
+	width: 3%;
+}
+.pdf {
+	background-color: lightgrey;
+	float: right;
+	display: inline-block;
+	height: 100%;
+	width: 97%;
+}
+.navBar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 1;
+	left: 0;
+	background-color: lightgray;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+.navBar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+.navBar a:hover {
+	color: grey;
+}
+.navBar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}

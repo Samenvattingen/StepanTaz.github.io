@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 	border: 2px solid grey;
 	font-family: HelveticaNeue-Heavy;
-	background-color: lightgray;
+	background-color: white;
 	margin-top: 0px;
 	border-radius: 10px;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.4);
@@ -32,7 +32,7 @@ a {
 }
 
 div {
-	background-color: lightgray;
+	background-color: white;
 	padding: 8px;
 	margin-top: 10px;
 	margin-left: 10%;
@@ -53,8 +53,6 @@ p {
 
 object {
 	width: 100%;
-	scroll-behavior: smooth;
-
 }
 
 input {
@@ -69,8 +67,9 @@ input {
 	margin-right: 33%;
 }
 
-.video {
-		
-	display: inline-block;
+.video {		
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
 }
 

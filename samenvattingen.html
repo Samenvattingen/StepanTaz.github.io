@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Samenvattingen</title>
+	<link rel="stylesheet" type="text/css" href="samenvattingen.css">
+</head>
+<body>
+<div class="navBar" id="navBar">
+		<a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+		<a href="summ_aard.pdf">Aardrijkskunde</a>
+		<a href="summ_aard.pdf">Aardrijkskunde</a>
+		<a href="summ_aard.pdf">Aardrijkskunde</a>
+		<a href="summ_aard.pdf">Aardrijkskunde</a>
+</div>
+<button class="openBtn" onclick="openNav()">V<br>A<br>K<br>K<br>E<br>N</button>
+<div class="pdf">
+
+	<object data="summ_aard.pdf" type="application/pdf">
+			
+	</object>
+</div>
+</body>
+<script type="text/javascript">
+	function openNav() {
+		document.getElementById("navBar").style.width = "250px";
+	}
+	function closeNav() {
+		document.getElementById("navBar").style.width = "0";
+	}
+</script>
+</html>
+
