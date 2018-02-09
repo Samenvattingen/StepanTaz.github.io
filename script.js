@@ -29,7 +29,7 @@ function closeNav() {
 function changeAard() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_aard.pdf');
-			if (isMobile()) {
+			if (isMobile.any()) {
 				window.open("https://stepantaz.github.io/summ_aard.pdf");
 			}		
 };
