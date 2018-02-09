@@ -21,14 +21,17 @@ var isMobile = {
 };
 
 function openNav() {
-		document.getElementById("navBar").style.width = "250px";
+		document.getElementById("navBar").style.width = "350px";
 };
 function closeNav() {
 		document.getElementById("navBar").style.width = "0";
 };
 function changeAard() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_aard.pdf');		
+			objData.setAttribute('data', 'summ_aard.pdf');
+			if (isMobile()) {
+				window.open("https://stepantaz.github.io/summ_aard.pdf");
+			}		
 };
 function changeBio() {
 		var objData = document.getElementById('pdf');
