@@ -28,106 +28,73 @@ function closeNav() {
 };
 function summ_aard() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_aard.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_aard.pdf');
 			closeNav();
-			closeAard();
-			if (isMobile.any()) {
-				window.open("summ_aard.pdf");
-			}		
+			closeAard();		
 };
 function summ_bio() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_bio.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_bio.pdf');
 			closeNav();
-			closeBio();
-			if (isMobile.any()) {
-				window.open("summ_bio.pdf");
-			}		
+			closeBio();		
 };
 function summ_chem_atom() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_chem_atom.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_chem_atom.pdf');
 			closeNav();
-			closeChem();
-			if (isMobile.any()) {
-				window.open("summ_chem_atom.pdf");
-			}		
+			closeChem();		
 };
 function summ_chem_even() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_chem_even.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_chem_even.pdf');
 			closeNav();
-			closeChem();
-			if (isMobile.any()) {
-				window.open("summ_chem_even.pdf");
-			}		
+			closeChem();		
 };
 function summ_eng_u3_4() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_eng_u3_4.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_eng_u3_4.pdf');
 			closeNav();
-			closeEng();
-			if (isMobile.any()) {
-				window.open("summ_eng_u3_4.pdf");
-			}		
+			closeEng();	
 };
 function summ_frans_pronom() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_frans_pronom.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_frans_pronom.pdf');
 			closeNav();
-			closeFrans();
-			if (isMobile.any()) {
-				window.open("summ_frans_pronom.pdf");
-			}	
+			closeFrans();	
 };
 function summ_fys() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_fys.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_fys.pdf');
 			closeNav();
-			closeFys();
-			if (isMobile.any()) {
-				window.open("summ_fys.pdf");
-			}		
+			closeFys();		
 };
 function summ_strijd() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_strijd.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_strijd.pdf');
 			closeNav();
-			closeGesch();
-			if (isMobile.any()) {
-				window.open("summ_strijd.pdf");
-			}		
+			closeGesch();		
 };
 function summ_wisk_complex() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_wisk_complex.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_wisk_complex.pdf');
 			closeNav();
-			closeWisk();
-			if (isMobile.any()) {
-				window.open("summ_wisk_complex.pdf");
-			}		
+			closeWisk();		
 };
 function summ_wisk_funct() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_wisk_funct.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_wisk_funct.pdf');
 			closeNav();
-			closeWisk();
-			if (isMobile.any()) {
-				window.open("summ_wisk_funct.pdf");
-			}		
+			closeWisk();	
 };
 function summ_wisk_gon() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_wisk_gon.pdf');
+			objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_wisk_gon.pdf');
 			closeNav();
-			closeWisk();
-			if (isMobile.any()) {
-				window.open("summ_wisk_gon.pdf");
-			}		
+			closeWisk();		
 };
 function home() {
 	objData = document.getElementById('pdf')
-	objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_aard.pdf');
+	objData.setAttribute('data', 'home.html');
 	closeNav();
 }
 function aard() {

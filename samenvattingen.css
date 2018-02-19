@@ -109,3 +109,33 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+#homescreen {
+	font-family: Comic Sans MS;
+	border-radius: 20px;
+	border-color: grey;
+	background-color: grey;
+	margin-top: 2.25%;
+	height: 90%;
+	width: 70%;
+	box-shadow: 9px 1px 56px -20px rgba(0,0,0,0.75);
+	float: right;
+	position: absolute;
+	margin-left: 15%;
+}
+.abdel {
+	border-radius: 25%;
+}
+.finger {
+	margin-top: 10%;
+}
+.cool {
+	float: right;
+	margin-right: 10%;
+}
+#homescreen2 {
+	margin-left: 5%;
+	float: left;
+}
+#homescreen3 {
+	float: right;
+}
