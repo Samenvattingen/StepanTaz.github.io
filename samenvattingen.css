@@ -13,6 +13,10 @@ object {
 	height: 100%;
 	position: absolute;
 }
+a {
+	color: black;
+	text-decoration-color: black;
+}
 .header {
 	text-align: center;
 	text-decoration-line: underline;
@@ -74,6 +78,7 @@ object {
 	margin-left: 50px;
 }
 .popup {
+	text-decoration-color: black;
 	display: none;
 	position: fixed;
 	z-index: 3;
