@@ -146,7 +146,7 @@ function closeWisk() {
 	document.getElementById('wisk').style.display = "none";
 }
 function mobile() {
-	if (isMobile()) {
+	if (isMobile.any()) {
 		var popupContent = document.getElementsByClassName('popup_content');
 		var navList = document.getElementsByClassName('navList');
 		for (var i = 0; i < popupContent.length; i++) {
@@ -160,3 +160,4 @@ function mobile() {
 		}
 	}	
 }
+f
