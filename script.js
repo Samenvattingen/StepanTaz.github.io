@@ -126,7 +126,8 @@ function summ_wisk_gon() {
 			}		
 };
 function home() {
-	objData.setAttribute('data', 'home.html');
+	objData = document.getElementById('pdf')
+	objData.setAttribute('data', 'https://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_aard.pdf');
 	closeNav();
 }
 function aard() {
