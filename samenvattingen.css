@@ -13,6 +13,14 @@ object {
 	height: 100%;
 	position: absolute;
 }
+.header {
+	text-align: center;
+	text-decoration-line: underline;
+}
+.home_text {
+	margin-right: 10%;
+	margin-left: 10%;
+}
 .openBtn {
 	position: absolute;
 	vertical-align: middle;
@@ -65,7 +73,7 @@ object {
 	font-size: 36px;
 	margin-left: 50px;
 }
-.popupWisk {
+.popup {
 	display: none;
 	position: fixed;
 	z-index: 3;
@@ -77,7 +85,7 @@ object {
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.4);
 }
-.popupWisk_content {
+.popup_content {
 	background-color: lightgray;
 	margin: 15% auto;
 	padding: 20px;

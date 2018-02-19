@@ -10,27 +10,84 @@
 <body>
 <div class="navBar" id="navBar">
 		<a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
-		<a href="javascript:void(0)" onClick="changeAard()">Aardrijkskunde</a>
-		<a href="javascript:void(0)" onClick="changeBio()">Biologie</a>
-		<a href="javascript:void(0)" id="open_popupChem" onClick="popupChem()">Chemie</a>
-		<a href="javascript:void(0)" onClick="changeEng()">Engels</a>
-		<a href="javascript:void(0)" onClick="changeFrans()">Frans</a>
-		<a href="javascript:void(0)" onClick="changeFys()">Fysica</a>
-		<a href="javascript:void(0)" onClick="changeGesch()">Gechiedenis</a>
-		<a href="javascript:void(0)" id="open_popupWisk" onClick="openPopupWisk()">Wiskunde</a>
+		<a href="javascript:void(0)" onclick="home()">Home</a>
+		<a href="javascript:void(0)" onclick="aard()">Aardrijkskunde</a>
+		<a href="javascript:void(0)" onclick="bio()">Biologie</a>
+		<a href="javascript:void(0)" onclick="chem()">Chemie</a>
+		<a href="javascript:void(0)" onclick="eng()">Engels</a>
+		<a href="javascript:void(0)" onclick="frans()">Frans</a>
+		<a href="javascript:void(0)" onclick="fys()">Fysica</a>
+		<a href="javascript:void(0)" onclick="gesch()">Gechiedenis</a>
+		<a href="javascript:void(0)" onclick="wisk()">Wiskunde</a>
 </div>
-<button id="open_popupWisk" onClick="openNav()" class="openBtn" >V<br>A<br>K<br>K<br>E<br>N</button>
+<button onClick="openNav()" class="openBtn" >V<br>A<br>K<br>K<br>E<br>N</button>
 <div class="pdf">
-	<object id="pdf" class="pdf" data="http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_aard.pdf">
+	<object id="pdf" class="pdf" data="home.html">
 		
 	</object>
 </div>
-<div id="popupWisk" class="popupWisk">
-	<div class="popupWisk_content">
-		<p class="popuptext">Welke samenvatting van chemie wil je openen?</p>
-		<span class="closePopup" onClick="closePopupWisk()">&times;</span>
-		<button onClick="changeWisk_reeleFunc"></button>
-		<button onClick="changeWisk_complex"></button>
+<div id="wisk" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeWisk()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="aard" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeAard()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="bio" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeBio()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="chem" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeChem()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="eng" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeEng()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="frans" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeFrans()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="fys" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeFys()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
+	</div>
+</div>
+<div id="gesch" class="popup">
+	<div class="popup_content">
+		<span class="closePopup" onClick="closeGesch()">&times;</span>
+		<a href="summ_wisk_complex.pdf">Samenvatting complexe getallen</a>
+		<br><br>
+		<a href="summ_wisk_funct.pdf">Samenvatting reële functies</a>
 	</div>
 </div>
 </body>

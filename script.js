@@ -29,70 +29,110 @@ function closeNav() {
 function changeAard() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_aard.pdf');
+			window.open("");
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_aard.pdf');
+				window.open("");
 			}		
 };
 function changeBio() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_bio.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_bio.pdf');
+				window.open("");
 			}		
 };
 function changeChem() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_chem.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_chem.pdf');
+				window.open("");
 			}		
 };
 function changeEng() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_eng.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_eng.pdf');
+				window.open("");
 			}		
 };
 function changeFrans() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_frans.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_frans.pdf');
+				window.open("");
 			}	
 };
 function changeFys() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_fys.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_fys.pdf');
+				window.open("");
 			}		
 };
 function changeGesch() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_gesch.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_gesch.pdf');
+				window.open("");
 			}		
 };
 function changeWisk() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_wisk.pdf');
 			if (isMobile.any()) {
-				objData.setAttribute('data', 'http://docs.google.com/gview?embedded=true&url=https://stepantaz.github.io/summ_wisk.pdf');
+				window.open("");
 			}		
 };
-var x = 1
-if (x == 1) {
-	document.getElementById("navBar").style.width = "50%";
-	document.getElementById("navBar").style.backgroundColor = "blue";
-};
-
-function openPopupWisk() {
-	document.getElementById('popupWisk').style.display = "block";
+function home() {
+	objData.setAttribute('data', 'home.html');
 }
-function closePopupWisk() {
-	document.getElementById('popupWisk').style.display = "none";
+function aard() {
+	document.getElementById('aard').style.display = "block";
+}
+function bio() {
+	document.getElementById('bio').style.display = "block";
+}
+function eng() {
+	document.getElementById('eng').style.display = "block";
+}
+function chem() {
+	document.getElementById('chem').style.display = "block";
+}
+function frans() {
+	document.getElementById('frans').style.display = "block";
+}
+function fys() {
+	document.getElementById('fys').style.display = "block";
+}
+function gesch() {
+	document.getElementById('gesch').style.display = "block";
+}
+function wisk() {
+	document.getElementById('wisk').style.display = "block";
+}
+function closeAard() {
+	document.getElementById('aard').style.display = "none";
+}
+function closeBio() {
+	document.getElementById('bio').style.display = "none";
+}
+function closeChem() {
+	document.getElementById('chem').style.display = "none";
+}
+function closeEng() {
+	document.getElementById('eng').style.display = "none";
+}
+function closeFys() {
+	document.getElementById('fys').style.display = "none";
+}
+function closeFrans() {
+	document.getElementById('frans').style.display = "none";
+}
+function closeGesch() {
+	document.getElementById('gesch').style.display = "none";
+}
+function closeWisk() {
+	document.getElementById('wisk').style.display = "none";
 }
 window.onclick = function(event) {
     if (event.target == document.getElementById('popupWisk')) {
