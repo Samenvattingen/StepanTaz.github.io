@@ -4,7 +4,6 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	font-family: helvetica bold;
 }
 object {
@@ -32,8 +31,8 @@ a {
 	border-radius: 3px;
 	height: 100%;	
 	float: left;
-	width: 7%;
-	font-size: 20px;
+	width: 8%;
+	font-size: 18px;
 	border: 1px solid black;
 	box-shadow: 9px 1px 56px -20px rgba(0,0,0,0.75);
 	font-weight: bold;
