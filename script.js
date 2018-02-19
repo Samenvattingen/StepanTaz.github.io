@@ -21,70 +21,113 @@ var isMobile = {
 };
 
 function openNav() {
-		document.getElementById("navBar").style.width = "350px";
+		document.getElementById("navBar").style.width = "250px";
 };
 function closeNav() {
 		document.getElementById("navBar").style.width = "0";
 };
-function changeAard() {
+function summ_aard() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_aard.pdf');
-			window.open("");
+			closeNav();
+			closeAard();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_aard.pdf");
 			}		
 };
-function changeBio() {
+function summ_bio() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_bio.pdf');
+			closeNav();
+			closeBio();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_bio.pdf");
 			}		
 };
-function changeChem() {
+function summ_chem_atom() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_chem.pdf');
+			objData.setAttribute('data', 'summ_chem_atom.pdf');
+			closeNav();
+			closeChem();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_chem_atom.pdf");
 			}		
 };
-function changeEng() {
+function summ_chem_even() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_eng.pdf');
+			objData.setAttribute('data', 'summ_chem_even.pdf');
+			closeNav();
+			closeChem();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_chem_even.pdf");
 			}		
 };
-function changeFrans() {
+function summ_eng_u3_4() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_frans.pdf');
+			objData.setAttribute('data', 'summ_eng_u3_4.pdf');
+			closeNav();
+			closeEng();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_eng_u3_4.pdf");
+			}		
+};
+function summ_frans_pronom() {
+		var objData = document.getElementById('pdf');
+			objData.setAttribute('data', 'summ_frans_pronom.pdf');
+			closeNav();
+			closeFrans();
+			if (isMobile.any()) {
+				window.open("summ_frans_pronom.pdf");
 			}	
 };
-function changeFys() {
+function summ_fys() {
 		var objData = document.getElementById('pdf');
 			objData.setAttribute('data', 'summ_fys.pdf');
+			closeNav();
+			closeFys();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_fys.pdf");
 			}		
 };
-function changeGesch() {
+function summ_strijd() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_gesch.pdf');
+			objData.setAttribute('data', 'summ_strijd.pdf');
+			closeNav();
+			closeGesch();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_strijd.pdf");
 			}		
 };
-function changeWisk() {
+function summ_wisk_complex() {
 		var objData = document.getElementById('pdf');
-			objData.setAttribute('data', 'summ_wisk.pdf');
+			objData.setAttribute('data', 'summ_wisk_complex.pdf');
+			closeNav();
+			closeWisk();
 			if (isMobile.any()) {
-				window.open("");
+				window.open("summ_wisk_complex.pdf");
+			}		
+};
+function summ_wisk_funct() {
+		var objData = document.getElementById('pdf');
+			objData.setAttribute('data', 'summ_wisk_funct.pdf');
+			closeNav();
+			closeWisk();
+			if (isMobile.any()) {
+				window.open("summ_wisk_funct.pdf");
+			}		
+};
+function summ_wisk_gon() {
+		var objData = document.getElementById('pdf');
+			objData.setAttribute('data', 'summ_wisk_gon.pdf');
+			closeNav();
+			closeWisk();
+			if (isMobile.any()) {
+				window.open("summ_wisk_gon.pdf");
 			}		
 };
 function home() {
 	objData.setAttribute('data', 'home.html');
+	closeNav();
 }
 function aard() {
 	document.getElementById('aard').style.display = "block";
@@ -134,8 +177,4 @@ function closeGesch() {
 function closeWisk() {
 	document.getElementById('wisk').style.display = "none";
 }
-window.onclick = function(event) {
-    if (event.target == document.getElementById('popupWisk')) {
-        document.getElementById('popupWisk').style.display = "none";
-    }
-}
+
