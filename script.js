@@ -1,4 +1,4 @@
-debugger;
+window.onload = mobile;
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -145,8 +145,10 @@ function closeGesch() {
 function closeWisk() {
 	document.getElementById('wisk').style.display = "none";
 }
-if (isMobile.any()) {
-	alert("MOBILE");
-	document.getElementsByClassName('popup_content').style.width = "100%";
-	document.getElementsByClassName('popup_content').style.height = "100%";
+function mobile() {
+	if (isMobile.any()) {
+		alert("MOBILE");
+		document.getElementsByClassName('popup_content').style.width = "100%";
+		document.getElementsByClassName('popup_content').style.height = "100%";
+	}
 }
