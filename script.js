@@ -145,4 +145,8 @@ function closeGesch() {
 function closeWisk() {
 	document.getElementById('wisk').style.display = "none";
 }
-
+if (isMobile.any()) {
+	alert("MOBILE");
+	document.getElementsByClassName('popup_content').style.width = "100%";
+	document.getElementsByClassName('popup_content').style.height = "100%";
+}
