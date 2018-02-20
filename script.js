@@ -154,10 +154,10 @@ function mobile() {
 			popupContent[i].style.width = "80%";
 			popupContent[i].style.height = "80%";
 			popupContent[i].style.fontSize = "20px";
+			popupContent[i].style.marginTop = '10%';
 		}
 		for (var i = 0; i < navList.length; i++) {
 			navList[i].style.fontSize = "20px";
 		}
 	}	
 }
-f
