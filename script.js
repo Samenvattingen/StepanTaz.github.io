@@ -22,6 +22,7 @@ var isMobile = {
 
 function openNav() {
 		document.getElementById("navBar").style.width = "250px";
+		document.getElementById("navBar").style.fontSize = "25px";
 };
 function closeNav() {
 		document.getElementById("navBar").style.width = "0";
