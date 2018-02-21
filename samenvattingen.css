@@ -8,7 +8,6 @@ body {
 	font-family: helvetica bold;
 }
 object {
-
 	float: right;
 	width: 93%;
 	height: 100%;
@@ -43,6 +42,7 @@ a {
 	box-shadow: 9px 1px 56px -20px rgba(0,0,0,0.75);
 	font-weight: bold;
 	text-decoration: none;
+	background-color: lightgrey;
 }
 .pdf {
 	background-color: lightgrey;
