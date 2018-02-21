@@ -149,6 +149,7 @@ function mobile() {
 	if (isMobile.any()) {
 		var popupContent = document.getElementsByClassName('popup_content');
 		var navList = document.getElementsByClassName('navList');
+		var home = document.getElementsByClassName('home');
 		for (var i = 0; i < popupContent.length; i++) {
 			//alert("MOBILE");
 			popupContent[i].style.width = "80%";
@@ -159,5 +160,8 @@ function mobile() {
 		for (var i = 0; i < navList.length; i++) {
 			navList[i].style.fontSize = "20px";
 		}
-	}	
+		for (var i = 0; i < home.length; i++) {
+			home[i].style.marginTop = "5%";
+		}
+	}
 }
