@@ -2,6 +2,8 @@ html {
 	height: 100%;
 }
 body {
+	height: 100%;
+	overflow: hidden;
 	background-color: lightgray;
 	margin: 0;
 	padding: 0;
@@ -23,14 +25,18 @@ h1 {
 	font-weight: bold;
 }
 .home {
+	height: 45%;
 	border-radius: 3px;
-	margin: 2%;
-	margin-top: 5%;
+	margin: 3.35%;
+	margin-top: 1.5%;
+	margin-bottom: 1%;
 	background-color: lightgray;
 	border: 1px solid black;
 	-webkit-box-shadow: 1px 2px 58px -10px rgba(0,0,0,0.59);
 	-moz-box-shadow: 1px 2px 58px -10px rgba(0,0,0,0.59);
 	box-shadow: 1px 2px 58px -10px rgba(0,0,0,0.59);
+}
+.obj {
 }
 .home2 {
 	height: 50%;
@@ -138,33 +144,4 @@ h1 {
 	text-decoration: none;
 	cursor: pointer;
 }
-#homescreen {
-	font-family: Comic Sans MS;
-	border-radius: 20px;
-	border-color: grey;
-	background-color: grey;
-	margin-top: 2.25%;
-	height: 90%;
-	width: 70%;
-	box-shadow: 9px 1px 56px -20px rgba(0,0,0,0.75);
-	float: right;
-	position: absolute;
-	margin-left: 15%;
-}
-.abdel {
-	border-radius: 25%;
-}
-.finger {
-	margin-top: 10%;
-}
-.cool {
-	float: right;
-	margin-right: 10%;
-}
-#homescreen2 {
-	margin-left: 5%;
-	float: left;
-}
-#homescreen3 {
-	float: right;
-}
+

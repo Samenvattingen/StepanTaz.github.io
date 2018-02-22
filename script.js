@@ -161,8 +161,6 @@ function mobile() {
 		for (var i = 0; i < navList.length; i++) {
 			navList[i].style.fontSize = "20px";
 		}
-		for (var i = 0; i < home.length; i++) {
-			home[i].style.marginTop = "5%";
-		}
+		document.getElementById("obj").style.marginTop = '5%';
 	}
 }
