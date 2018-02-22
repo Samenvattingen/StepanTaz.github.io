@@ -148,9 +148,11 @@ function closeWisk() {
 }
 function mobile() {
 	if (isMobile.any()) {
+		document.getElementById("obj").style.height = '40%';
 		var popupContent = document.getElementsByClassName('popup_content');
 		var navList = document.getElementsByClassName('navList');
 		var home = document.getElementsByClassName('home');
+		var txt = document.getElementsByClassName('txt');
 		for (var i = 0; i < popupContent.length; i++) {
 			//alert("MOBILE");
 			popupContent[i].style.width = "80%";
@@ -160,7 +162,7 @@ function mobile() {
 		}
 		for (var i = 0; i < navList.length; i++) {
 			navList[i].style.fontSize = "20px";
+			document.getElementById("obj").style.height = '40%';
 		}
-		document.getElementById("obj").style.marginTop = '5%';
 	}
 }
