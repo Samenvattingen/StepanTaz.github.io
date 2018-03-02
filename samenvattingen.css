@@ -136,21 +136,23 @@ h2 {
 	z-index: 1;	
 }
 .list1 {
-    position:absolute;
-	top: 3%;
+   position: absolute;
+    top: 2%;
+    left: 0;
     overflow-y: auto;
-	overflow-x: hidden;
+    overflow-x: hidden;
     max-height: 80%;
-	float: left;
+    float: left;
 }
 .list2 {
-    position:absolute;
-	top: 3%;
+    position: absolute;
+    top: 2%;
+    left: 0;
     overflow-y: auto;
-	overflow-x: hidden;
+    overflow-x: hidden;
     max-height: 80%;
-	float: left;
-	display: none;
+    float: left;
+    display: none;
 }
 .closebtn {
 	float: right;
@@ -225,11 +227,6 @@ h2 {
 	text-decoration: none;
 	cursor: pointer;
 }
-.list {
-	position: absolute;
-	top: 2%;
-	left: 0;
-}
 .hline {
 	width: 100%;
 	height: 1px;
@@ -240,4 +237,29 @@ h2 {
 }
 img {
 	float: right;
+}
+.a12 {
+	position: absolute;
+	bottom: 75px;
+	left: 0;
+	z-index: 0;
+}
+.tab {
+	position: absolute;
+	display: inline-block;
+	width: 80%;
+	left: 25px;
+	bottom: 125px;
+	background-color: white;
+	z-index: 1; 
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	display: none;
+}
+.closeTab {
+	width: 100%;
+	height: 88%;
+	position: absolute;
+	top: 0;
+	display: none;
 }
