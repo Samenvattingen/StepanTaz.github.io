@@ -157,3 +157,26 @@ function mobile() {
         });
     };
 };
+function isLandscape() {
+    return (window.orientation === 90 || window.orientation === -90);
+}
+window.addEventListener("orientationchange", function() {
+if (isMobile.any()) {
+if (screen.height < screen.width){
+    $(".popup_content").css({
+        "margin": "4% auto"
+    });
+    $(".tab").css({
+        
+    });
+    $(".a12").css({
+
+    });
+}
+else {
+    $(".popup_content").css({
+        "margin": "12% auto"
+    });
+}
+}
+}, false);
