@@ -121,7 +121,7 @@ function navTab() {
     }
 }
 function oud() {
-    document.getElementById("a12").innerHTML = "Tab ^ (oud)";
+    document.getElementById("a12").innerHTML = "Module 1 ^";
     $(".list2").css({
         "display": "block"
     });
@@ -130,7 +130,7 @@ function oud() {
     });
 }
 function nieuw () {
-     document.getElementById("a12").innerHTML = "Tab ^ (nieuw)";
+     document.getElementById("a12").innerHTML = "Module 2 ^";
       $(".list1").css({
         "display": "block"
     });
