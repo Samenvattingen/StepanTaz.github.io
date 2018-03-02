@@ -135,12 +135,22 @@ h2 {
 	display: none;
 	z-index: 1;	
 }
-.list {
-	overflow-y: auto;
+.list1 {
+    position:absolute;
+	top: 3%;
+    overflow-y: auto;
 	overflow-x: hidden;
-	max-height: 85%;
-	width: 100%;
+    max-height: 80%;
 	float: left;
+}
+.list2 {
+    position:absolute;
+	top: 3%;
+    overflow-y: auto;
+	overflow-x: hidden;
+    max-height: 80%;
+	float: left;
+	display: none;
 }
 .closebtn {
 	float: right;
