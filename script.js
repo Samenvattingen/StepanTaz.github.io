@@ -164,7 +164,7 @@ window.addEventListener("orientationchange", function() {
 if (isMobile.any()) {
 if (screen.height < screen.width){
     $(".popup_content").css({
-        "margin": "4% auto"
+        "margin": "3% auto"
     });
     $(".tab").css({
         
