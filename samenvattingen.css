@@ -134,7 +134,6 @@ h2 {
 	position: absolute;
 	display: none;
 	z-index: 1;	
-	background-color: blue;
 }
 .list1 {
    position: absolute;
@@ -256,6 +255,9 @@ img {
 	border: 1px solid lightgrey;
 	border-radius: 5px;
 	display: none;
+}
+.tab:hover{
+	cursor: pointer;
 }
 .closeTab {
 	width: 100%;
