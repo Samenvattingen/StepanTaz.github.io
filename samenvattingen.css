@@ -29,7 +29,7 @@ h2 {
 	margin-top: 3%;
 	margin-left: 20%;
 	margin-right: 20%;
-	font-size: 1.75vmax;
+	font-size: 1.6vmax;
 	padding: 5px;
 	overflow-y: auto;	
 }
@@ -52,7 +52,7 @@ h2 {
 }
 .txtMobile {
 	top: 1%;
-	font-size: 2.6vmax;
+	font-size: 2.45vmax;
 	padding: 5px;
 	overflow-y: auto;
 }
@@ -136,7 +136,7 @@ h2 {
 	z-index: 1;	
 }
 .list1 {
-   position: absolute;
+    position: absolute;
     top: 2%;
     left: 0;
     overflow-y: auto;
