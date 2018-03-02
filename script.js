@@ -99,10 +99,45 @@ window.onclick = function(event) {
     if (event.target == document.getElementById("wisk")) {
         closeAll();
     }
-    if (event.target == document.getElementById("exam")) {
+  if (event.target == document.getElementById("exam")) {
         closeAll();
     }   
+}
+tabCheck = 0;
+function navTab() {
+    if (tabCheck == 0) {
+        $(".tab").fadeIn(200);
+        $(".closeTab").css({
+            "display": "block"
+        });
+        tabCheck++;
     }
+    else {
+        $(".tab").fadeOut(200);
+        $(".closeTab").css({
+            "display": "none"
+        });
+        tabCheck--;
+    }
+}
+function oud() {
+    document.getElementById("a12").innerHTML = "Tab ^ (oud)";
+    $(".list2").css({
+        "display": "block"
+    });
+     $(".list1").css({
+        "display": "none"
+    });
+}
+function nieuw () {
+     document.getElementById("a12").innerHTML = "Tab ^ (nieuw)";
+      $(".list1").css({
+        "display": "block"
+    });
+     $(".list2").css({
+        "display": "none"
+    });
+}
 function mobile() {
     if (isMobile.any()) {
         $(document).ready(function(){
