@@ -39,6 +39,8 @@ function closeNav() {
     $(".closebtn").css({
         "display": "none"
     });
+    $(".tab").fadeOut(200);
+    tabCheck = 0;
 };
 function openSumm(summ, mobileSumm) {
         if (isMobile.any()) {
