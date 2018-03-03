@@ -20,42 +20,56 @@ var isMobile = {
     }
 }
 function openNav() {
-	$("#navBar").css({
-		"width": "250px",
-		"font-size": "2vmax"
-	});
+    $("#navBar").css({
+        "width": "250px",
+        "font-size": "2vmax"
+    });
+    $("#navBarFull").css({
+        "display": "block"
+    });
+    $(".closebtn").css({
+        "display": "block"
+    });
 };
 function closeNav() {
-	$("#navBar").css({"width": "0"});
+    $("#navBar").css({"width": "0"});
+    $("#navBarFull").css({
+        "display": "none"
+    });
+    $(".closebtn").css({
+        "display": "none"
+    });
+    $(".tab").fadeOut(200);
+    tabCheck = 0;
 };
 function openSumm(summ, mobileSumm) {
-		if (isMobile.any()) {
-        	$("#pdf").attr("data", mobileSumm);
+        if (isMobile.any()) {
+            $("#pdf").attr("data", mobileSumm);
         }
         else {
-        	$("#pdf").attr("data", summ);
+            $("#pdf").attr("data", summ);
         }    
         closeNav();
         closeAll();
 };
 function home() {
-	if (isMobile.any()) {
-		$("#pdf").attr("data", "homeMobile.html");
-	}
-	else {
-		$("#pdf").attr("data", "home.html");
-	}
-	closeNav();
-	closeAll();
+    if (isMobile.any()) {
+        $("#pdf").attr("data", "homeMobile.html");
+    }
+    else {
+        $("#pdf").attr("data", "home.html");
+    }
+    closeNav();
+    closeAll();
 };
 function show(vak) {
-	$(vak).fadeIn(200);
+    $(vak).fadeIn(200);
 };
 function closeInner(vak) {
-	$(vak).fadeOut(200);
+    $(vak).fadeOut(200);
 };
 function closeAll() {
-        closeInner(document.querySelectorAll("#aard, #bio, #chem, #eng, #frans, #fys, #gesch, #ned, #wisk"));
+        closeInner(document.querySelectorAll("#aard, #bio, #chem, #eng, #frans, #fys, #gesch, #ned, #wisk, #exam"));
 }
 window.onclick = function(event) {
     if (event.target == document.getElementById("aard")) {
@@ -85,20 +99,84 @@ window.onclick = function(event) {
     if (event.target == document.getElementById("wisk")) {
         closeAll();
     }
-	}
+  if (event.target == document.getElementById("exam")) {
+        closeAll();
+    }   
+}
+tabCheck = 0;
+function navTab() {
+    if (tabCheck == 0) {
+        $(".tab").fadeIn(200);
+        $(".closeTab").css({
+            "display": "block"
+        });
+        tabCheck++;
+    }
+    else {
+        $(".tab").fadeOut(200);
+        $(".closeTab").css({
+            "display": "none"
+        });
+        tabCheck--;
+    }
+}
+function oud() {
+    document.getElementById("a12").innerHTML = "Module 1 ^";
+    $(".list2").css({
+        "display": "block"
+    });
+     $(".list1").css({
+        "display": "none"
+    });
+}
+function nieuw () {
+     document.getElementById("a12").innerHTML = "Module 2 ^";
+      $(".list1").css({
+        "display": "block"
+    });
+     $(".list2").css({
+        "display": "none"
+    });
+}
 function mobile() {
-	if (isMobile.any()) {
-		$(document).ready(function(){
-			$(".popup_content").css({
-				"width": "80%",
-				"height": "80%",
-				"font-size": "20px",
-				"margin-top": "10%"
-			});
-			$(".navList").css({
-				"font-size": "20px"
-			});
-			$("#pdf").attr("data", "homeMobile.html");
-		});
-	};
+    if (isMobile.any()) {
+        $(document).ready(function(){
+            $(".popup_content").css({
+                "width": "80%",
+                "height": "80%",
+                "font-size": "20px",
+                "margin-top": "10%"
+            });
+            $(".navList").css({
+                "font-size": "20px"
+            });
+            $(".popupContentInner").css({
+                "width": "80%"
+            });
+            $("#pdf").attr("data", "homeMobile.html");
+        });
+    };
 };
+function isLandscape() {
+    return (window.orientation === 90 || window.orientation === -90);
+}
+window.addEventListener("orientationchange", function() {
+if (isMobile.any()) {
+if (screen.height < screen.width){
+    $(".popup_content").css({
+        "margin": "4% auto"
+    });
+    $(".tab").css({
+        
+    });
+    $(".a12").css({
+
+    });
+}
+else {
+    $(".popup_content").css({
+        "margin": "12% auto"
+    });
+}
+}
+}, false);
