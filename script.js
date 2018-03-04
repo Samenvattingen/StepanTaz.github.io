@@ -149,7 +149,6 @@ function mobile() {
                 "width": "80%",
                 "height": "80%",
                 "font-size": "20px",
-                "margin-top": "10%"
             });
             $(".navList").css({
                 "font-size": "20px"
