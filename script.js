@@ -129,6 +129,8 @@ function oud() {
     $(".list1").css({
         "display": "none"
     });
+    $(".module").fadeOut(200);
+    tabCheck--;
 }
 function nieuw() {
     $(".list1").css({
@@ -137,6 +139,8 @@ function nieuw() {
     $(".list2").css({
         "display": "none"
     });
+    $(".module").fadeOut(200);
+    tabCheck--;
 }
 function mobile() {
     if (isMobile.any()) {
