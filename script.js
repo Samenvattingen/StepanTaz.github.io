@@ -154,6 +154,12 @@ function mobile() {
             $(".navList").css({
                 "font-size": "20px"
             });
+            $("#m1").css({
+                "font-size": "20px"
+            });
+             $("#m2").css({
+                "font-size": "20px"
+            });
             $(".popupContentInner").css({
                 "width": "80%"
             });
