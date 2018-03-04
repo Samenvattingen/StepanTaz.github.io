@@ -105,6 +105,7 @@ window.onclick = function(event) {
         closeAll();
     }   
 }
+/*
 tabCheck = 0;
 function moduleTab() {
     if (tabCheck == 0) {
@@ -142,6 +143,7 @@ function nieuw() {
     $(".module").fadeOut(200);
     tabCheck--;
 }
+*/
 function mobile() {
     if (isMobile.any()) {
         $(document).ready(function(){
