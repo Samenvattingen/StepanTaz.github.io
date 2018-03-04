@@ -167,10 +167,7 @@ if (screen.height < screen.width){
         "margin": "4% auto"
     });
     $(".tab").css({
-        
-    });
-    $(".a12").css({
-
+        "bottom": "-25px"
     });
 }
 else {

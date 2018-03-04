@@ -239,8 +239,6 @@ img {
 	float: right;
 }
 .a12 {
-	position: absolute;
-	bottom: 75px;
 	left: 0;
 	z-index: 0;
 }
@@ -249,7 +247,7 @@ img {
 	display: inline-block;
 	width: 80%;
 	left: 25px;
-	bottom: 125px;
+	bottom: 35px;
 	background-color: white;
 	z-index: 1; 
 	border: 1px solid lightgrey;
